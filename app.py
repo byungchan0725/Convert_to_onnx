@@ -5,7 +5,7 @@ from PIL import Image
 
 # Load model components
 from module.model_utils.convert.convert_torch_to_onnx import export_to_onnx
-from module.model_utils.prediction.predict_single_image import show_image_with_acc
+from module.model_utils.inference.inference_single_image import show_image_with_acc
 
 # CSS components
 from module.css_utils.gap import gap_1
